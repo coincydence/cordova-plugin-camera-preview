@@ -20,9 +20,9 @@
     <source-file src="src/android/Preview.java" target-dir="src/com/cordovaplugincamerapreview" />
     <source-file src="src/android/TapGestureDetector.java" target-dir="src/com/cordovaplugincamerapreview" />
 
-    <resource-file src="src/android/camera_activity.xml" target="res/layout/" />
-    <resource-file src="src/android/camera_theme.xml" target="res/values/" />
-    <resource-file src="src/android/camera_ids.xml" target="res/values/" />
+    <resource-file src="src/android/camera_activity.xml" target="res/layout/camera_activity.xml" />
+    <resource-file src="src/android/camera_theme.xml" target="res/values/camera_theme.xml" />
+    <resource-file src="src/android/camera_ids.xml" target="res/values/camera_ids.xml" />
 
     <framework src="androidx.exifinterface:exifinterface:1.2.0" />
 
